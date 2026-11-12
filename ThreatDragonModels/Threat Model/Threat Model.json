@@ -4,12 +4,19 @@
   "released_at": "2026-11-11",
   "summary": {
     "title": "Threat Model",
-    "owner": "soliva, fmagdiel",
+    "owner": "soliva, f-magdiel",
     "description": "Tarea: Modelado de amenazas de un sitio web",
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "soliva"
+      },
+      {
+        "name": "f-magdiel"
+      }
+    ],
     "diagrams": [
       {
         "id": 0,
