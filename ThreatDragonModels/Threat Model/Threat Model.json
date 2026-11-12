@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0.0",
+  "released_at": "2026-11-11",
+  "summary": {
+    "title": "Threat Model",
+    "owner": "soliva, fmagdiel",
+    "description": "Tarea: Modelado de amenazas de un sitio web",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
