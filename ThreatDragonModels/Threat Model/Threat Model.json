@@ -2611,12 +2611,37 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": true,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "6f8db947-59ab-47ff-805b-c9dab652073c",
+                  "title": "T04 · Suplantación con JWT robado",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "description": "Un atacante que obtiene el JWT de un organizador (equipo compartido, extensión maliciosa o XSS) lo reutiliza desde otro dispositivo. La API lo acepta y obtiene la identidad y los permisos del organizador.",
+                  "mitigation": ""
+                },
+                {
+                  "id": "a8f13b0f-819a-4165-8024-cc3dd13b99c9",
+                  "title": "T15 · Robo del JWT guardado en localStorage",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "description": "Un atacante que logra ejecutar un XSS (afiche malicioso o dependencia comprometida) lee el token guardado en localStorage. Obtiene la sesión completa de la víctima.",
+                  "mitigation": ""
+                }
+              ]
             }
           },
           {
@@ -2731,12 +2756,25 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": true,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "65c03348-94af-429d-9d37-a392dbf3f6af",
+                  "title": "T10 · Acciones del administrador sin auditoría",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "description": "Un administrador cambia roles o borra usuarios y luego lo niega. Como no hay registro de auditoría definido (supuesto S08), no se puede atribuir la acción a una persona.",
+                  "mitigation": ""
+                }
+              ]
             }
           },
           {
@@ -2851,12 +2889,25 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "70578e60-0405-46cb-af65-5887dec6deca",
+                  "title": "T12 · Escaneos de puerta sin operador identificado",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "description": "Un operador deja pasar a terceros marcando entradas como válidas y luego lo niega. La API no registra qué operador ni qué dispositivo hizo cada escaneo, así que no se puede demostrar quién lo hizo.",
+                  "mitigation": ""
+                }
+              ]
             }
           },
           {
@@ -2975,13 +3026,26 @@
               "description": "Sirve el JavaScript y HTML de la SPA React.",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "8eeffbc0-1ccc-41ce-8fc9-5e197bdd1bbd",
+                  "title": "T09 · JavaScript del CDN alterado por la cadena de suministro",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "description": "Un atacante que compromete una dependencia npm o la cuenta del CDN altera el JavaScript de la SPA. Todos los usuarios cargan el código malicioso y el atacante obtiene sus tokens y datos.",
+                  "mitigation": ""
+                }
+              ]
             }
           },
           {
@@ -3096,12 +3160,73 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": true,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "74a1aa16-681c-43b1-8a07-0a3a3eba4bb5",
+                  "title": "T06 · Doble validación del mismo QR (condición de carrera)",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "description": "Dos personas con copias del mismo QR lo escanean al mismo tiempo en puertas distintas. Si la API lee el estado y luego lo marca como usado en dos pasos no atómicos, ambas reciben \"válido\" y entran dos personas con una sola entrada.",
+                  "mitigation": ""
+                },
+                {
+                  "id": "5a7bcc99-963e-4c82-8f04-4770d1830fde",
+                  "title": "T18 · Saturación de la validación durante el ingreso",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "description": "Un atacante envía una ráfaga de solicitudes de validación falsas durante el ingreso a un evento. La API se satura, el personal de puerta no puede validar entradas y el evento se retrasa o se cancela.",
+                  "mitigation": ""
+                },
+                {
+                  "id": "915d4e2c-8589-4fd0-ad7c-a5bc65483f33",
+                  "title": "T22 · Organizador gestiona eventos de otros (IDOR)",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "description": "Un organizador que cambia el evento_id en una solicitud (D03) modifica o exporta la lista de inscritos de un evento que no administra. Obtiene datos personales de otros eventos.",
+                  "mitigation": ""
+                },
+                {
+                  "id": "a877a4f8-613c-4358-aa23-d09144fb26af",
+                  "title": "T23 · JWT forjado con rol de administrador",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "description": "Un atacante que aprovecha una clave débil o que la API acepta el algoritmo \"none\" firma su propio JWT con rol admin. Obtiene acceso de administrador a toda la API.",
+                  "mitigation": ""
+                },
+                {
+                  "id": "9e7e3a11-6316-4afa-9eb1-bfbc6e44e284",
+                  "title": "T24 · Autoasignación de rol en el registro",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "description": "Un atacante agrega el campo role: \"admin\" al cuerpo del registro (mass assignment). Si la API lo acepta, crea una cuenta de administrador desde el registro público.",
+                  "mitigation": ""
+                }
+              ]
             }
           },
           {
@@ -3345,13 +3470,26 @@
               "description": "Afiches de eventos y CSV exportados.",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "ad037278-002d-4be1-8288-2a35bbb8c048",
+                  "title": "T13 · CSV de inscritos accesible por URL pública",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "description": "El bucket guarda el CSV con una URL pública o predecible. Un atacante que obtiene el enlace (historial, correo reenviado o adivinado) lo descarga y obtiene nombre, correo, carné y teléfono de todos los inscritos.",
+                  "mitigation": ""
+                }
+              ]
             }
           },
           {
@@ -4198,12 +4336,49 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "9d58c784-56ee-491a-917e-133f8c0be252",
+                  "title": "T07 · Precio o estado alterado en la inscripción",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "description": "Un estudiante que modifica el cuerpo de la solicitud de inscripción (precio, estado o descuento) con las herramientas del navegador. Si la API confía en los valores del cliente, obtiene la entrada a precio cero.",
+                  "mitigation": ""
+                },
+                {
+                  "id": "8bac2c0c-0aad-4b03-93dd-d79e114ae174",
+                  "title": "T14 · IDOR en inscripciones y entradas",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "description": "Un estudiante cambia el ID en una solicitud como /inscripciones/{id}. Si la API no verifica que le pertenezca, obtiene los datos personales y el QR de otra persona.",
+                  "mitigation": ""
+                },
+                {
+                  "id": "70650536-8749-4b2b-8a16-2b3a1baabf3e",
+                  "title": "T19 · Inscripciones masivas con bots",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "description": "Un atacante automatiza miles de inscripciones con cuentas desechables. Agota el cupo del evento y los asistentes reales no pueden inscribirse.",
+                  "mitigation": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119",
                 "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
@@ -4248,12 +4423,25 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "773aa0a8-fdf9-45e4-9a37-8e9e25597feb",
+                  "title": "T11 · Exportación de CSV sin registro de autoría",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "description": "Un organizador exporta la lista de inscritos y la filtra. Sin registro de quién, cuándo y qué evento exportó, no hay forma de demostrar quién filtró los datos personales.",
+                  "mitigation": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
                 "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119"
@@ -4298,12 +4486,25 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "92edfe04-e9a1-4ee6-b344-29c54e9b06c1",
+                  "title": "T21 · Control de acceso de /admin solo en el frontend",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "description": "El panel oculta las opciones de administración en la interfaz, pero la API no valida el rol. Un estudiante llama directamente a los endpoints de /admin y obtiene permisos de administrador.",
+                  "mitigation": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119",
                 "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
@@ -4398,12 +4599,25 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "6a104b0c-80ed-4350-a93c-b013b6564edc",
+                  "title": "T03 · QR falsificado o predecible",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "description": "Un atacante que descubre que el QR contiene el ID incremental de la inscripción genera códigos para IDs ajenos. Los presenta en la puerta y la API responde \"válido\", sin haber pagado ni inscrito.",
+                  "mitigation": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119",
                 "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
@@ -4498,12 +4712,25 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "TLS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "1703d863-c738-49c5-9c51-c5ab75afa35c",
+                  "title": "T16 · Inyección SQL en la búsqueda de eventos",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "description": "Un atacante que envía una cadena maliciosa en el campo de búsqueda del catálogo (público) logra que la consulta devuelva otras tablas. Obtiene usuarios, correos y hashes de contraseña.",
+                  "mitigation": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
                 "c56edb5a-3235-467e-aae5-8b32202e19d2"
@@ -4598,12 +4825,37 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "HTTPS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "6bbc1e3f-f484-4ac0-8728-a6e04cedecb5",
+                  "title": "T08 · Afiche malicioso (SVG o HTML con script)",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "description": "Un organizador sube como afiche un SVG o HTML con JavaScript. Si el bucket lo sirve con su tipo original, el script se ejecuta en el navegador de los visitantes y el atacante obtiene XSS contra ellos.",
+                  "mitigation": ""
+                },
+                {
+                  "id": "ff99b0e3-aa31-46a6-8d77-212b3cf27b6c",
+                  "title": "T20 · Subida masiva de archivos al bucket",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "description": "Un organizador o cuenta robada sube archivos enormes o repetidos sin límite. El bucket se llena, aumentan los costos y se afecta la disponibilidad de los afiches y los CSV.",
+                  "mitigation": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
                 "c56edb5a-3235-467e-aae5-8b32202e19d2"
@@ -4701,12 +4953,25 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": true,
               "isEncrypted": true,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "06fb7714-4810-4ebd-bc8b-7f43cdf219c6",
+                  "title": "T02 · CSRF o redirección manipulada en OAuth",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "description": "Un atacante que manipula redirect_uri o el parámetro state del flujo OAuth 2.0 hace que la víctima complete el login con un código del atacante, o roba el código de autorización. Obtiene una sesión ligada a la identidad de la víctima.",
+                  "mitigation": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119",
                 "84a2e971-41d4-4691-89b6-a6c33d3be6eb"
@@ -4854,12 +5119,37 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "0f455fa8-5244-4127-9492-89a407dd4f90",
+                  "title": "T01 · Webhook de pago falsificado",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "description": "Un atacante externo que conoce la URL del webhook envía un POST con el ID de una inscripción y estado \"pagado\". Si la API no verifica la firma de la pasarela, la inscripción queda pagada y el atacante obtiene una entrada QR sin pagar.",
+                  "mitigation": ""
+                },
+                {
+                  "id": "bad8a9dc-4248-44ee-8226-00152499cb26",
+                  "title": "T05 · Replay o alteración del webhook de pago",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "description": "Un atacante que captura un webhook legítimo lo reenvía o cambia el monto o el ID de inscripción. Sin firma, marca de tiempo ni idempotencia, la API registra pagos duplicados o por un monto menor y el atacante obtiene inscripciones sin pagar el precio.",
+                  "mitigation": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "84a2e971-41d4-4691-89b6-a6c33d3be6eb",
                 "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
@@ -4904,12 +5194,25 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "fe673ffe-e605-4b52-a093-1114c2810cf3",
+                  "title": "T17 · Enlace de restablecimiento de contraseña expuesto",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "description": "El correo de restablecimiento lleva un token de larga vida y reutilizable. Un atacante con acceso al buzón o a los registros del proveedor de correo usa el enlace y obtiene el control de la cuenta.",
+                  "mitigation": ""
+                }
+              ],
               "trustBoundaryIds": [
                 "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
                 "84a2e971-41d4-4691-89b6-a6c33d3be6eb"
@@ -4937,6 +5240,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 24
   }
 }
