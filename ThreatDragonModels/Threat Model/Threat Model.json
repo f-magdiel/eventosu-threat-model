@@ -1916,7 +1916,7 @@
         "cells": [
           {
             "position": {
-              "x": -480,
+              "x": -500,
               "y": 30
             },
             "size": {
@@ -1992,23 +1992,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "c037518f-3ffe-4821-b22c-c57e9ee6111b"
+                  "id": "610e7d3a-7ce5-4459-8740-4d542ce540c5"
                 },
                 {
                   "group": "right",
-                  "id": "b3d84c8a-adff-42f8-90fe-19ee977ba6cc"
+                  "id": "3b75962e-2a46-49ec-83f5-89ac3ea38d53"
                 },
                 {
                   "group": "bottom",
-                  "id": "511cd2d7-45b8-4090-9b05-3aadbb0beee2"
+                  "id": "c924bb07-e05c-49e9-b3a4-758ef162ebe2"
                 },
                 {
                   "group": "left",
-                  "id": "c811440d-d930-441a-b928-521138d51023"
+                  "id": "fdad1802-8e52-46a3-96d6-4aecaa064a27"
                 }
               ]
             },
-            "id": "3782f0c5-1944-4f49-8006-dcd286f92a1f",
+            "id": "698003df-2602-4df0-b2ce-77008c01ecf7",
             "attrs": {
               "text": {
                 "text": "Visitante"
@@ -2033,8 +2033,8 @@
           },
           {
             "position": {
-              "x": -480,
-              "y": 140
+              "x": -500,
+              "y": 150
             },
             "size": {
               "width": 160,
@@ -2109,23 +2109,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "186443b3-8ef9-497f-8ed2-0d267fe46553"
+                  "id": "7ab36286-995a-458f-bd08-cb8f49ec89d6"
                 },
                 {
                   "group": "right",
-                  "id": "1eea267a-5c1e-4333-8dfe-e98df17a7bcc"
+                  "id": "0ae7fe6f-2fa2-4a76-bbf2-f60ff271da26"
                 },
                 {
                   "group": "bottom",
-                  "id": "12b210cf-5ccb-4e49-b636-521ec92a2182"
+                  "id": "62434489-a76c-495c-8f89-53c7e1690955"
                 },
                 {
                   "group": "left",
-                  "id": "3cedd26a-e12a-4eb0-8a71-bcd38b2fd95e"
+                  "id": "e65a3cc7-2e32-41fe-9e94-4b83a3dce97f"
                 }
               ]
             },
-            "id": "e81a7215-aaef-4a8a-8364-8d115b4992b2",
+            "id": "696fe2de-0944-4a92-855b-635e896c2c89",
             "attrs": {
               "text": {
                 "text": "Estudiante/Público"
@@ -2150,8 +2150,8 @@
           },
           {
             "position": {
-              "x": -480,
-              "y": 250
+              "x": -500,
+              "y": 270
             },
             "size": {
               "width": 160,
@@ -2226,23 +2226,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "4e6b5089-8f57-4fbf-9ebc-1dfa8b625178"
+                  "id": "cc7305bf-28b6-4ed3-b218-5ce8b6fa5edc"
                 },
                 {
                   "group": "right",
-                  "id": "e7b35d5f-d683-446c-8116-ad9e7363c208"
+                  "id": "4c602996-b879-4c2f-8f1b-2d6ffafa440b"
                 },
                 {
                   "group": "bottom",
-                  "id": "3f44d8d6-b0fb-4d5c-961c-25303beed170"
+                  "id": "6d6dacdc-5888-49e9-8664-a4db99900773"
                 },
                 {
                   "group": "left",
-                  "id": "06bb93c9-6df2-4453-87e3-f58576df9cc0"
+                  "id": "2fb41906-de9e-4c38-851a-c29fbe23f6c7"
                 }
               ]
             },
-            "id": "d5db9a5d-6b8d-40c4-8aaf-5558eb7dba9a",
+            "id": "d3dbfb35-579a-4ba6-98f2-e0a8bc0fa3f7",
             "attrs": {
               "text": {
                 "text": "Organizador"
@@ -2267,8 +2267,8 @@
           },
           {
             "position": {
-              "x": -480,
-              "y": 370
+              "x": -500,
+              "y": 400
             },
             "size": {
               "width": 160,
@@ -2343,23 +2343,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "bbd17336-9f2b-45be-a0d2-b121074acc9d"
+                  "id": "5ef7d5af-aa9e-4255-9ede-4beed381244d"
                 },
                 {
                   "group": "right",
-                  "id": "b2e21c39-c5bd-42a3-b86d-011512339159"
+                  "id": "4eb8213f-7c7d-4e23-8029-ba695edd790d"
                 },
                 {
                   "group": "bottom",
-                  "id": "de89ed76-397c-4c5c-8109-8e928e3ad456"
+                  "id": "34063b72-c5fc-4f86-8bd5-77767a134972"
                 },
                 {
                   "group": "left",
-                  "id": "2eb221ad-8645-40ef-b267-2b52f73e84c8"
+                  "id": "b9b5fc03-6e27-42f9-921d-24d2d704d976"
                 }
               ]
             },
-            "id": "8ff16e78-ad13-4aae-bd00-ff321428972a",
+            "id": "ec36820b-8b8a-4919-b5c6-2dc5213fdb35",
             "attrs": {
               "text": {
                 "text": "Administrador"
@@ -2384,8 +2384,8 @@
           },
           {
             "position": {
-              "x": -480,
-              "y": 560
+              "x": -500,
+              "y": 610
             },
             "size": {
               "width": 160,
@@ -2460,23 +2460,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "2fee19fe-e206-4ea2-b628-ffb7bde4d274"
+                  "id": "611a3b08-b639-4168-8ace-e9ecbb428a03"
                 },
                 {
                   "group": "right",
-                  "id": "d22f2304-b278-4a56-8a3b-929030881a09"
+                  "id": "2cfccd70-e1c7-49d8-b66c-c7521656c34f"
                 },
                 {
                   "group": "bottom",
-                  "id": "e07595ff-d3c0-497a-9b15-b986b2c795fc"
+                  "id": "92176990-66cd-4c93-9869-c9a59471f165"
                 },
                 {
                   "group": "left",
-                  "id": "b78d8735-ab62-4f7a-a9f1-4e7707f8309d"
+                  "id": "9c4f632a-7e9a-43f2-bb20-9f9fcfee45d2"
                 }
               ]
             },
-            "id": "b4e25e22-0fe2-4245-bd04-93705494dda0",
+            "id": "a0418c79-711c-4e0a-a938-950875714a2c",
             "attrs": {
               "text": {
                 "text": "Personal de Puerta"
@@ -2501,8 +2501,8 @@
           },
           {
             "position": {
-              "x": -230,
-              "y": 100
+              "x": -170,
+              "y": 110
             },
             "size": {
               "width": 140,
@@ -2577,26 +2577,26 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "63b1e535-641a-41ba-bf98-9ba6dfa673a9"
+                  "id": "fc55f603-b56d-4903-a1bd-4b79e6ed061e"
                 },
                 {
                   "group": "right",
-                  "id": "7d6020ca-6879-4e42-8495-cc5368a54266"
+                  "id": "1a3e6263-eac8-434e-8f16-ad08a22aa608"
                 },
                 {
                   "group": "bottom",
-                  "id": "e9455a5a-a5b9-4bfa-9cfc-c6d8c4ecba56"
+                  "id": "c971ce69-44cd-466a-9a37-778c5a2dbba5"
                 },
                 {
                   "group": "left",
-                  "id": "f3f73666-132a-4bd3-bea5-c1e86da6b0bc"
+                  "id": "edb2cfc1-a417-4dac-ab24-26de56c66357"
                 }
               ]
             },
-            "id": "6fbb4e02-0e65-44fa-89e4-c37908774c0f",
+            "id": "ca704dfa-d440-4401-9d71-64869cafec4d",
             "attrs": {
               "text": {
-                "text": "SPA React (navegador)"
+                "text": "SPA React"
               },
               "body": {
                 "stroke": "#333333",
@@ -2606,7 +2606,7 @@
             },
             "data": {
               "type": "tm.Process",
-              "name": "SPA React (navegador)",
+              "name": "SPA React",
               "description": "Sitio web React; guarda el token de sesión en el navegador.",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2621,8 +2621,8 @@
           },
           {
             "position": {
-              "x": -230,
-              "y": 330
+              "x": -170,
+              "y": 360
             },
             "size": {
               "width": 140,
@@ -2697,26 +2697,26 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "7d6dc118-87f1-4d80-9277-665d6bb19383"
+                  "id": "b79f96d9-6898-4017-ae53-44b03ede9f1e"
                 },
                 {
                   "group": "right",
-                  "id": "b7d75bc0-75b6-46cb-88c1-48739de72c69"
+                  "id": "97cb7ac0-4489-45d3-9544-37e22466a4b1"
                 },
                 {
                   "group": "bottom",
-                  "id": "16362c27-46be-48fb-bcf4-a7c87f495d85"
+                  "id": "6eff9314-e671-4668-8d88-a8c88cc2c973"
                 },
                 {
                   "group": "left",
-                  "id": "7aebb318-f8b5-4c1a-85cc-620254ac68f3"
+                  "id": "0aea95a3-b96f-468d-81e4-b5056da779a6"
                 }
               ]
             },
-            "id": "90267820-9661-46ea-b78c-2de5192be869",
+            "id": "07026cfc-554c-442f-8165-eea1302f0200",
             "attrs": {
               "text": {
-                "text": "Panel de administración (/admin)"
+                "text": "Panel /admin"
               },
               "body": {
                 "stroke": "#333333",
@@ -2726,7 +2726,7 @@
             },
             "data": {
               "type": "tm.Process",
-              "name": "Panel de administración (/admin)",
+              "name": "Panel /admin",
               "description": "Ruta /admin del mismo sitio; mismo login que los usuarios.",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2741,8 +2741,8 @@
           },
           {
             "position": {
-              "x": -230,
-              "y": 520
+              "x": -170,
+              "y": 570
             },
             "size": {
               "width": 140,
@@ -2817,26 +2817,26 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "25322bc4-e10d-4fe3-901f-796dc460a958"
+                  "id": "01a34d58-cf9f-45a3-aa5d-4d0ab9c4de27"
                 },
                 {
                   "group": "right",
-                  "id": "da824437-0279-4d15-8da1-b2e849838038"
+                  "id": "93f14a37-4306-461f-9370-10aa380a5be8"
                 },
                 {
                   "group": "bottom",
-                  "id": "f3b5872b-3a83-4aa7-8603-6c8ea8b36d62"
+                  "id": "1a36a732-8f53-4817-b800-dbbd26432274"
                 },
                 {
                   "group": "left",
-                  "id": "0a470df1-fef4-4cf5-aae8-990173579ef7"
+                  "id": "910a0be0-a6d7-4f9a-abdd-e85931785bab"
                 }
               ]
             },
-            "id": "2b1b9ed0-f8d8-4c60-b824-70efa27f91c0",
+            "id": "c27314c7-50cd-4a0e-bfb2-f8be25afc40c",
             "attrs": {
               "text": {
-                "text": "App de Puerta (móvil)"
+                "text": "App de Puerta"
               },
               "body": {
                 "stroke": "#333333",
@@ -2846,7 +2846,7 @@
             },
             "data": {
               "type": "tm.Process",
-              "name": "App de Puerta (móvil)",
+              "name": "App de Puerta",
               "description": "Aplicación móvil que escanea el QR y consulta la API.",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2861,8 +2861,8 @@
           },
           {
             "position": {
-              "x": 330,
-              "y": 0
+              "x": 320,
+              "y": 5
             },
             "size": {
               "width": 240,
@@ -2937,23 +2937,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "6161ba67-afc7-44e7-aad6-6c7d015f3a86"
+                  "id": "e319bb43-b870-491f-8f48-ff39054689e3"
                 },
                 {
                   "group": "right",
-                  "id": "a6a45696-3893-4251-8007-fdb790d44eb9"
+                  "id": "5cb5b19b-3f2e-4177-905d-c1066213f191"
                 },
                 {
                   "group": "bottom",
-                  "id": "970f4b36-c821-4e86-8f46-4bdd739d204e"
+                  "id": "0457fa0b-6151-4c23-b646-8609d0048db8"
                 },
                 {
                   "group": "left",
-                  "id": "b1cb0b5f-e160-46ea-9a82-ae5ff38a37d9"
+                  "id": "a9ab7bcc-e25f-4f99-88ac-ffba07b24955"
                 }
               ]
             },
-            "id": "cdef4b1a-bf38-4e9c-90ee-38b14c2ec423",
+            "id": "e500ae0e-c03e-4c7d-be10-ddfb42ea6b17",
             "attrs": {
               "text": {
                 "text": "CDN (archivos estáticos)"
@@ -2986,12 +2986,12 @@
           },
           {
             "position": {
-              "x": 330,
-              "y": 230
+              "x": 300,
+              "y": 270
             },
             "size": {
-              "width": 240,
-              "height": 240
+              "width": 280,
+              "height": 280
             },
             "visible": true,
             "shape": "process",
@@ -3062,23 +3062,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "72ecba73-47d6-4647-bc3d-3ff13ddf67cf"
+                  "id": "5a283e60-2e00-48ea-b88f-a5b6736e0aa4"
                 },
                 {
                   "group": "right",
-                  "id": "9a5873fa-a7cf-4fbf-8381-a0baaac219c8"
+                  "id": "b95e4eb8-8b99-4701-91e3-1ee7979ba0b8"
                 },
                 {
                   "group": "bottom",
-                  "id": "52302673-9daa-477f-ab35-4415ad4ed602"
+                  "id": "bd39a2cb-36ed-4298-8781-e26e271e7372"
                 },
                 {
                   "group": "left",
-                  "id": "43b3cf01-17ba-42b1-9a40-ef6bb4ce8720"
+                  "id": "7854b3ed-aa50-4a4a-863d-a17f587816f4"
                 }
               ]
             },
-            "id": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0",
+            "id": "a074dcf8-a636-462d-87bd-99da32065e2c",
             "attrs": {
               "text": {
                 "text": "API Node.js"
@@ -3106,8 +3106,8 @@
           },
           {
             "position": {
-              "x": 960,
-              "y": 450
+              "x": 900,
+              "y": 520
             },
             "size": {
               "width": 200,
@@ -3182,23 +3182,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "5301d0ff-8864-4f31-8f04-2d9f73cdbeaa"
+                  "id": "8de1c954-28e9-41a9-8b3e-bebae5ab197f"
                 },
                 {
                   "group": "right",
-                  "id": "02e0fea9-9a77-438a-ab8f-37da9f97409a"
+                  "id": "ceb358c8-1a10-4b70-b09d-6a12e00d3ac4"
                 },
                 {
                   "group": "bottom",
-                  "id": "75c25d2f-eb73-4cdd-bedc-78e7a3263735"
+                  "id": "6c8aa871-c465-46af-af43-b7bf275eb1b7"
                 },
                 {
                   "group": "left",
-                  "id": "9c3facbd-605d-46c2-a1ae-992b6f33feb9"
+                  "id": "267fe820-30ad-4477-ab1b-f22ad6c795dc"
                 }
               ]
             },
-            "id": "de2966f9-afdd-453e-8e08-7ba3ee3e789c",
+            "id": "76cd3d6a-bba1-4d39-9278-0c4dcdcc6d13",
             "attrs": {
               "text": {
                 "text": "PostgreSQL"
@@ -3231,8 +3231,8 @@
           },
           {
             "position": {
-              "x": 960,
-              "y": 620
+              "x": 900,
+              "y": 690
             },
             "size": {
               "width": 200,
@@ -3307,23 +3307,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "f6ea0ce7-8f09-4e24-ab84-bbedf1848e98"
+                  "id": "9e043f2b-ed19-4f5b-b0e3-741d92c3a692"
                 },
                 {
                   "group": "right",
-                  "id": "84648cfc-5191-4748-a1cb-8b349311e360"
+                  "id": "df45ea80-d12a-465a-adb0-a3aafff14103"
                 },
                 {
                   "group": "bottom",
-                  "id": "429c9926-d427-4673-b723-fad4d839d7a3"
+                  "id": "ec702ad3-3ecf-494c-8f58-2c5b8c7ce526"
                 },
                 {
                   "group": "left",
-                  "id": "244c1e28-981a-43df-8489-bf897d5fa5f9"
+                  "id": "ddfb2d61-7857-421b-a02c-a0190b5a9a92"
                 }
               ]
             },
-            "id": "6c325c0d-10d9-4dd5-86bc-96d6dc251e76",
+            "id": "ae86c0c1-f190-4e9b-8621-0d4862175023",
             "attrs": {
               "text": {
                 "text": "Bucket de objetos"
@@ -3356,8 +3356,8 @@
           },
           {
             "position": {
-              "x": 1540,
-              "y": 140
+              "x": 1400,
+              "y": 70
             },
             "size": {
               "width": 240,
@@ -3432,23 +3432,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "e7b4578d-e823-45bf-b49d-39ecb581d298"
+                  "id": "1b01fafd-1b81-451b-9f08-1e2288ad4e01"
                 },
                 {
                   "group": "right",
-                  "id": "b2e8a798-61f7-46f6-8e22-a9046a710f1f"
+                  "id": "9c1abfb5-8642-4cc8-a2d8-e20529d8d9e0"
                 },
                 {
                   "group": "bottom",
-                  "id": "f0745e52-1f39-4af9-abb3-67b893536177"
+                  "id": "6e400f2b-38f5-4dba-9416-db4dc2436bbd"
                 },
                 {
                   "group": "left",
-                  "id": "451afa20-2a1d-4abd-b68e-52df685736a3"
+                  "id": "b271bc8d-239f-41fb-acb5-424aa14e7f01"
                 }
               ]
             },
-            "id": "8d9dac55-27c5-4f11-a500-d4387adc4bd9",
+            "id": "cc2bbc19-f4bd-4a45-9b17-1a8f8d2fcce3",
             "attrs": {
               "text": {
                 "text": "Microsoft Entra ID"
@@ -3473,8 +3473,8 @@
           },
           {
             "position": {
-              "x": 1540,
-              "y": 245
+              "x": 1400,
+              "y": 220
             },
             "size": {
               "width": 240,
@@ -3549,23 +3549,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "34abf003-1066-430e-9964-72c14ab7aff5"
+                  "id": "a7e45e4b-98bb-444a-a062-69306b82d998"
                 },
                 {
                   "group": "right",
-                  "id": "5fd94826-dab2-4ef5-bccc-33a3dbab2b44"
+                  "id": "5157a26a-dbb3-414b-b089-56400e3ff6df"
                 },
                 {
                   "group": "bottom",
-                  "id": "1366b927-3eef-469c-ad5f-f91f058d42da"
+                  "id": "26550a23-1ece-4693-9767-3b92b1e83b2b"
                 },
                 {
                   "group": "left",
-                  "id": "7b7bdd56-f7c3-4d2b-8a65-ea400774cb7b"
+                  "id": "b04fcc47-89bb-4ed2-a335-f1aa6fab4cbd"
                 }
               ]
             },
-            "id": "4d44aa69-c378-4eaf-b8a7-b868ddce789a",
+            "id": "4101d1be-e653-41cc-abf6-8aa1e04da44e",
             "attrs": {
               "text": {
                 "text": "Servicio de correos"
@@ -3590,8 +3590,8 @@
           },
           {
             "position": {
-              "x": 1540,
-              "y": 380
+              "x": 1400,
+              "y": 350
             },
             "size": {
               "width": 240,
@@ -3666,23 +3666,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "63de2f57-c66a-4faf-95a3-83c1b8c8661b"
+                  "id": "8a58fe2d-e151-482b-a7cb-e975149a06ed"
                 },
                 {
                   "group": "right",
-                  "id": "ad1b0f6e-5bae-498b-a756-7a388affeb6c"
+                  "id": "8c7392f2-a9ad-4566-ad2b-ac4fe00d68fc"
                 },
                 {
                   "group": "bottom",
-                  "id": "a2c562c5-ae1a-4fe9-90d5-9cfc1f896c38"
+                  "id": "eadfdfda-1b9d-49ac-a80a-9b11546aafe6"
                 },
                 {
                   "group": "left",
-                  "id": "7e50ee45-69bc-4629-886b-16a53a9e42ee"
+                  "id": "af68170d-2869-4a65-9dca-a73eba2f3171"
                 }
               ]
             },
-            "id": "b045c8a5-25f1-4b91-826d-4ed805c18785",
+            "id": "ad6895fa-de8d-4183-a58b-dcb1d7f80807",
             "attrs": {
               "text": {
                 "text": "Pasarela de pagos"
@@ -3707,12 +3707,12 @@
           },
           {
             "position": {
-              "x": -520,
+              "x": -540,
               "y": -60
             },
             "size": {
-              "width": 520,
-              "height": 820
+              "width": 560,
+              "height": 840
             },
             "attrs": {
               "label": {
@@ -3722,7 +3722,7 @@
             "visible": true,
             "shape": "trust-boundary-box",
             "zIndex": -1,
-            "id": "8aa1edb7-6419-4060-b887-eac4b8b5ca9b",
+            "id": "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "INTERNET (DISPOSITIVOS)",
@@ -3730,36 +3730,36 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "cd17e740-ff0d-4592-b2da-830683d430de",
-                "64e6b481-89b2-40eb-88b4-b9e23e09116a",
-                "414617c7-7984-499f-9d3f-49bd8fe0119c",
-                "6e0c8a42-d774-4d29-a2e0-821119fcdda6",
-                "e0b705fa-ec2d-415b-b764-6b23c774d7a6",
-                "3144e0b9-1125-44e5-baa7-2e1a9a606e69",
-                "6c2f57a1-a8ed-42a6-ae1e-df9a51297f33",
-                "fb880fb0-06ca-4a40-b435-2fd8a89069b1"
+                "5a3c4722-a0a8-4b9c-b762-07c73a54b187",
+                "c41d94bf-0c70-4bb0-b802-47de4feeb364",
+                "5f767409-bb68-4d5d-bcb2-4dda6edc81a4",
+                "a1064c8f-6e20-4ac6-a9ee-c980d3dc294b",
+                "e65a0a21-5642-4d31-adb2-92f4aaa7ec25",
+                "5ba78591-9ea8-4875-873a-36a958bb5355",
+                "19333dde-471d-4f53-8c5a-0b1c792de1d5",
+                "3402256f-d08e-4c68-9d27-530973d6e401"
               ],
               "containedElements": [
-                "3782f0c5-1944-4f49-8006-dcd286f92a1f",
-                "e81a7215-aaef-4a8a-8364-8d115b4992b2",
-                "d5db9a5d-6b8d-40c4-8aaf-5558eb7dba9a",
-                "8ff16e78-ad13-4aae-bd00-ff321428972a",
-                "b4e25e22-0fe2-4245-bd04-93705494dda0",
-                "6fbb4e02-0e65-44fa-89e4-c37908774c0f",
-                "90267820-9661-46ea-b78c-2de5192be869",
-                "2b1b9ed0-f8d8-4c60-b824-70efa27f91c0"
+                "698003df-2602-4df0-b2ce-77008c01ecf7",
+                "696fe2de-0944-4a92-855b-635e896c2c89",
+                "d3dbfb35-579a-4ba6-98f2-e0a8bc0fa3f7",
+                "ec36820b-8b8a-4919-b5c6-2dc5213fdb35",
+                "a0418c79-711c-4e0a-a938-950875714a2c",
+                "ca704dfa-d440-4401-9d71-64869cafec4d",
+                "07026cfc-554c-442f-8165-eea1302f0200",
+                "c27314c7-50cd-4a0e-bfb2-f8be25afc40c"
               ]
             },
             "ports": null
           },
           {
             "position": {
-              "x": 280,
+              "x": 260,
               "y": -60
             },
             "size": {
-              "width": 340,
-              "height": 820
+              "width": 360,
+              "height": 840
             },
             "attrs": {
               "label": {
@@ -3769,7 +3769,7 @@
             "visible": true,
             "shape": "trust-boundary-box",
             "zIndex": -1,
-            "id": "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
+            "id": "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "NUBE: CAPA DE APLICACIÓN",
@@ -3777,37 +3777,37 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "cd17e740-ff0d-4592-b2da-830683d430de",
-                "64e6b481-89b2-40eb-88b4-b9e23e09116a",
-                "414617c7-7984-499f-9d3f-49bd8fe0119c",
-                "6e0c8a42-d774-4d29-a2e0-821119fcdda6",
-                "e0b705fa-ec2d-415b-b764-6b23c774d7a6",
-                "3144e0b9-1125-44e5-baa7-2e1a9a606e69",
-                "6c2f57a1-a8ed-42a6-ae1e-df9a51297f33",
-                "8f065e66-4514-48c0-a832-b25b02a69c99",
-                "9e091f44-ad48-4a47-b284-2f3c2f1d38dd",
-                "2c5b7222-c50c-48ea-aef0-26bff145aa28",
-                "b95a4e96-e38a-4737-a1bb-289e9243e8df",
-                "a388a6e7-8e33-4fd8-a86a-2d215a7b81d7",
-                "4cf08711-47ce-49dd-a867-7146c94f730c",
-                "10ae750f-9deb-42b4-b791-9af7963c420b",
-                "3ab5bcf9-af1f-4864-9b62-077efa99a14d"
+                "5a3c4722-a0a8-4b9c-b762-07c73a54b187",
+                "c41d94bf-0c70-4bb0-b802-47de4feeb364",
+                "5f767409-bb68-4d5d-bcb2-4dda6edc81a4",
+                "a1064c8f-6e20-4ac6-a9ee-c980d3dc294b",
+                "e65a0a21-5642-4d31-adb2-92f4aaa7ec25",
+                "5ba78591-9ea8-4875-873a-36a958bb5355",
+                "19333dde-471d-4f53-8c5a-0b1c792de1d5",
+                "8f8f091a-4f49-4ac4-803a-a1df2ca3dfee",
+                "e0c1413e-1bbd-46da-a5b8-ca68a6f4175a",
+                "3ec0a467-b6cf-4811-8e7e-798a9f61fb7a",
+                "b609073e-dbdf-4cec-a64a-7e60c12f1b80",
+                "2fc1977a-18c5-4702-9fb4-43debf13558c",
+                "aba5d2b5-9f23-42dd-abda-60388cf5ee35",
+                "a24ce7f3-2345-4d23-bdb3-80d565908ea0",
+                "5c23eb33-735a-47bf-97d5-1b701b2fa7aa"
               ],
               "containedElements": [
-                "cdef4b1a-bf38-4e9c-90ee-38b14c2ec423",
-                "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+                "e500ae0e-c03e-4c7d-be10-ddfb42ea6b17",
+                "a074dcf8-a636-462d-87bd-99da32065e2c"
               ]
             },
             "ports": null
           },
           {
             "position": {
-              "x": 900,
+              "x": 860,
               "y": -60
             },
             "size": {
-              "width": 360,
-              "height": 820
+              "width": 280,
+              "height": 840
             },
             "attrs": {
               "label": {
@@ -3817,7 +3817,7 @@
             "visible": true,
             "shape": "trust-boundary-box",
             "zIndex": -1,
-            "id": "122fdd73-b0db-422d-9cda-f98175a7391b",
+            "id": "c56edb5a-3235-467e-aae5-8b32202e19d2",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "NUBE: CAPA DE DATOS",
@@ -3825,26 +3825,26 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "8f065e66-4514-48c0-a832-b25b02a69c99",
-                "9e091f44-ad48-4a47-b284-2f3c2f1d38dd",
-                "2c5b7222-c50c-48ea-aef0-26bff145aa28",
-                "b95a4e96-e38a-4737-a1bb-289e9243e8df"
+                "8f8f091a-4f49-4ac4-803a-a1df2ca3dfee",
+                "e0c1413e-1bbd-46da-a5b8-ca68a6f4175a",
+                "3ec0a467-b6cf-4811-8e7e-798a9f61fb7a",
+                "b609073e-dbdf-4cec-a64a-7e60c12f1b80"
               ],
               "containedElements": [
-                "de2966f9-afdd-453e-8e08-7ba3ee3e789c",
-                "6c325c0d-10d9-4dd5-86bc-96d6dc251e76"
+                "76cd3d6a-bba1-4d39-9278-0c4dcdcc6d13",
+                "ae86c0c1-f190-4e9b-8621-0d4862175023"
               ]
             },
             "ports": null
           },
           {
             "position": {
-              "x": 1480,
+              "x": 1370,
               "y": -60
             },
             "size": {
-              "width": 360,
-              "height": 820
+              "width": 300,
+              "height": 840
             },
             "attrs": {
               "label": {
@@ -3854,7 +3854,7 @@
             "visible": true,
             "shape": "trust-boundary-box",
             "zIndex": -1,
-            "id": "4a06c995-ef2a-4d53-b6f0-c427fd6e252b",
+            "id": "84a2e971-41d4-4691-89b6-a6c33d3be6eb",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "SERVICIOS DE TERCEROS",
@@ -3862,16 +3862,16 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "fb880fb0-06ca-4a40-b435-2fd8a89069b1",
-                "a388a6e7-8e33-4fd8-a86a-2d215a7b81d7",
-                "4cf08711-47ce-49dd-a867-7146c94f730c",
-                "10ae750f-9deb-42b4-b791-9af7963c420b",
-                "3ab5bcf9-af1f-4864-9b62-077efa99a14d"
+                "3402256f-d08e-4c68-9d27-530973d6e401",
+                "2fc1977a-18c5-4702-9fb4-43debf13558c",
+                "aba5d2b5-9f23-42dd-abda-60388cf5ee35",
+                "a24ce7f3-2345-4d23-bdb3-80d565908ea0",
+                "5c23eb33-735a-47bf-97d5-1b701b2fa7aa"
               ],
               "containedElements": [
-                "8d9dac55-27c5-4f11-a500-d4387adc4bd9",
-                "4d44aa69-c378-4eaf-b8a7-b868ddce789a",
-                "b045c8a5-25f1-4b91-826d-4ed805c18785"
+                "cc2bbc19-f4bd-4a45-9b17-1a8f8d2fcce3",
+                "4101d1be-e653-41cc-abf6-8aa1e04da44e",
+                "ad6895fa-de8d-4183-a58b-dcb1d7f80807"
               ]
             },
             "ports": null
@@ -3896,7 +3896,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Navegación del catálogo (UI en navegador)",
+              "name": "Navegación (UI web)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3910,19 +3910,19 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Navegación del catálogo (UI en navegador)"
+              "Navegación (UI web)"
             ],
-            "id": "bd76f435-3c92-49e1-8466-bfa6347cdf68",
+            "id": "941d2d25-dea9-406b-aa2b-e851bd65d8e1",
             "source": {
-              "cell": "3782f0c5-1944-4f49-8006-dcd286f92a1f"
+              "cell": "698003df-2602-4df0-b2ce-77008c01ecf7"
             },
             "target": {
-              "cell": "6fbb4e02-0e65-44fa-89e4-c37908774c0f"
+              "cell": "ca704dfa-d440-4401-9d71-64869cafec4d"
             },
             "vertices": [
               {
-                "x": -280,
-                "y": 115
+                "x": -260,
+                "y": 120
               }
             ]
           },
@@ -3946,7 +3946,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Registro, login, inscripción y descarga de QR (UI en navegador)",
+              "name": "Registro, pago, QR (UI web)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3960,19 +3960,19 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Registro, login, inscripción y descarga de QR (UI en navegador)"
+              "Registro, pago, QR (UI web)"
             ],
-            "id": "2e1c4905-38cf-4447-9436-cdd5aa724537",
+            "id": "8dcf8a1e-9bee-48e0-87f0-db0dba58cd00",
             "source": {
-              "cell": "e81a7215-aaef-4a8a-8364-8d115b4992b2"
+              "cell": "696fe2de-0944-4a92-855b-635e896c2c89"
             },
             "target": {
-              "cell": "6fbb4e02-0e65-44fa-89e4-c37908774c0f"
+              "cell": "ca704dfa-d440-4401-9d71-64869cafec4d"
             },
             "vertices": [
               {
-                "x": -280,
-                "y": 170
+                "x": -260,
+                "y": 180
               }
             ]
           },
@@ -3996,7 +3996,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Gestión de eventos, afiches y CSV (UI en navegador)",
+              "name": "Eventos y CSV (UI web)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4010,19 +4010,19 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Gestión de eventos, afiches y CSV (UI en navegador)"
+              "Eventos y CSV (UI web)"
             ],
-            "id": "45a30159-3c0e-4a29-a9a5-76221ae3385b",
+            "id": "3c69310d-169e-4424-a3aa-0e49ef383c07",
             "source": {
-              "cell": "d5db9a5d-6b8d-40c4-8aaf-5558eb7dba9a"
+              "cell": "d3dbfb35-579a-4ba6-98f2-e0a8bc0fa3f7"
             },
             "target": {
-              "cell": "6fbb4e02-0e65-44fa-89e4-c37908774c0f"
+              "cell": "ca704dfa-d440-4401-9d71-64869cafec4d"
             },
             "vertices": [
               {
-                "x": -280,
-                "y": 225
+                "x": -260,
+                "y": 240
               }
             ]
           },
@@ -4046,7 +4046,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Gestión de usuarios, roles y reportes (UI en navegador)",
+              "name": "Usuarios y roles (UI web)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4060,19 +4060,19 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Gestión de usuarios, roles y reportes (UI en navegador)"
+              "Usuarios y roles (UI web)"
             ],
-            "id": "4ccb36e4-ab6b-48f1-a462-e18992e44d3e",
+            "id": "0251e165-3278-424b-b198-cff5b2a07064",
             "source": {
-              "cell": "8ff16e78-ad13-4aae-bd00-ff321428972a"
+              "cell": "ec36820b-8b8a-4919-b5c6-2dc5213fdb35"
             },
             "target": {
-              "cell": "90267820-9661-46ea-b78c-2de5192be869"
+              "cell": "07026cfc-554c-442f-8165-eea1302f0200"
             },
             "vertices": [
               {
-                "x": -280,
-                "y": 400
+                "x": -260,
+                "y": 430
               }
             ]
           },
@@ -4096,7 +4096,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Escaneo del QR y resultado (cámara, UI móvil)",
+              "name": "Escaneo QR (cámara)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4110,19 +4110,19 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Escaneo del QR y resultado (cámara, UI móvil)"
+              "Escaneo QR (cámara)"
             ],
-            "id": "16eb7233-2a4d-464f-a4b9-bd84fc7effa8",
+            "id": "478d1de6-8c92-480f-ae48-466d5f55ec08",
             "source": {
-              "cell": "b4e25e22-0fe2-4245-bd04-93705494dda0"
+              "cell": "a0418c79-711c-4e0a-a938-950875714a2c"
             },
             "target": {
-              "cell": "2b1b9ed0-f8d8-4c60-b824-70efa27f91c0"
+              "cell": "c27314c7-50cd-4a0e-bfb2-f8be25afc40c"
             },
             "vertices": [
               {
-                "x": -280,
-                "y": 590
+                "x": -260,
+                "y": 640
               }
             ]
           },
@@ -4143,7 +4143,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Archivos estáticos de React (HTTPS, JS/HTML)",
+              "name": "Estáticos React (HTTPS, JS)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4155,24 +4155,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
-                "8aa1edb7-6419-4060-b887-eac4b8b5ca9b"
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
+                "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119"
               ]
             },
             "labels": [
-              "Archivos estáticos de React (HTTPS, JS/HTML)"
+              "Estáticos React (HTTPS, JS)"
             ],
-            "id": "cd17e740-ff0d-4592-b2da-830683d430de",
+            "id": "5a3c4722-a0a8-4b9c-b762-07c73a54b187",
             "source": {
-              "cell": "cdef4b1a-bf38-4e9c-90ee-38b14c2ec423"
+              "cell": "e500ae0e-c03e-4c7d-be10-ddfb42ea6b17"
             },
             "target": {
-              "cell": "6fbb4e02-0e65-44fa-89e4-c37908774c0f"
+              "cell": "ca704dfa-d440-4401-9d71-64869cafec4d"
             },
             "vertices": [
               {
-                "x": 145,
-                "y": 102
+                "x": 170,
+                "y": 110
               }
             ]
           },
@@ -4193,7 +4193,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Solicitudes REST con JWT (HTTPS, JSON)",
+              "name": "Solicitud REST + JWT (HTTPS, JSON)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4205,24 +4205,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "8aa1edb7-6419-4060-b887-eac4b8b5ca9b",
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86"
+                "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119",
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
               ]
             },
             "labels": [
-              "Solicitudes REST con JWT (HTTPS, JSON)"
+              "Solicitud REST + JWT (HTTPS, JSON)"
             ],
-            "id": "64e6b481-89b2-40eb-88b4-b9e23e09116a",
+            "id": "c41d94bf-0c70-4bb0-b802-47de4feeb364",
             "source": {
-              "cell": "6fbb4e02-0e65-44fa-89e4-c37908774c0f"
+              "cell": "ca704dfa-d440-4401-9d71-64869cafec4d"
             },
             "target": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "vertices": [
               {
-                "x": 145,
-                "y": 236
+                "x": 170,
+                "y": 267
               }
             ]
           },
@@ -4243,7 +4243,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Respuestas, entrada QR y CSV (HTTPS, JSON/CSV)",
+              "name": "Respuesta, QR, CSV (HTTPS, JSON)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4255,24 +4255,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
-                "8aa1edb7-6419-4060-b887-eac4b8b5ca9b"
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
+                "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119"
               ]
             },
             "labels": [
-              "Respuestas, entrada QR y CSV (HTTPS, JSON/CSV)"
+              "Respuesta, QR, CSV (HTTPS, JSON)"
             ],
-            "id": "414617c7-7984-499f-9d3f-49bd8fe0119c",
+            "id": "5f767409-bb68-4d5d-bcb2-4dda6edc81a4",
             "source": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "target": {
-              "cell": "6fbb4e02-0e65-44fa-89e4-c37908774c0f"
+              "cell": "ca704dfa-d440-4401-9d71-64869cafec4d"
             },
             "vertices": [
               {
-                "x": 145,
-                "y": 284
+                "x": 170,
+                "y": 323
               }
             ]
           },
@@ -4293,7 +4293,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Administración con JWT (HTTPS, JSON)",
+              "name": "Admin + JWT (HTTPS, JSON)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4305,24 +4305,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "8aa1edb7-6419-4060-b887-eac4b8b5ca9b",
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86"
+                "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119",
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
               ]
             },
             "labels": [
-              "Administración con JWT (HTTPS, JSON)"
+              "Admin + JWT (HTTPS, JSON)"
             ],
-            "id": "6e0c8a42-d774-4d29-a2e0-821119fcdda6",
+            "id": "a1064c8f-6e20-4ac6-a9ee-c980d3dc294b",
             "source": {
-              "cell": "90267820-9661-46ea-b78c-2de5192be869"
+              "cell": "07026cfc-554c-442f-8165-eea1302f0200"
             },
             "target": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "vertices": [
               {
-                "x": 145,
-                "y": 351
+                "x": 170,
+                "y": 392
               }
             ]
           },
@@ -4355,24 +4355,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
-                "8aa1edb7-6419-4060-b887-eac4b8b5ca9b"
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
+                "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119"
               ]
             },
             "labels": [
               "Usuarios y reportes (HTTPS, JSON)"
             ],
-            "id": "e0b705fa-ec2d-415b-b764-6b23c774d7a6",
+            "id": "e65a0a21-5642-4d31-adb2-92f4aaa7ec25",
             "source": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "target": {
-              "cell": "90267820-9661-46ea-b78c-2de5192be869"
+              "cell": "07026cfc-554c-442f-8165-eea1302f0200"
             },
             "vertices": [
               {
-                "x": 145,
-                "y": 399
+                "x": 170,
+                "y": 448
               }
             ]
           },
@@ -4405,24 +4405,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "8aa1edb7-6419-4060-b887-eac4b8b5ca9b",
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86"
+                "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119",
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
               ]
             },
             "labels": [
               "Código QR escaneado (HTTPS, JSON)"
             ],
-            "id": "3144e0b9-1125-44e5-baa7-2e1a9a606e69",
+            "id": "5ba78591-9ea8-4875-873a-36a958bb5355",
             "source": {
-              "cell": "2b1b9ed0-f8d8-4c60-b824-70efa27f91c0"
+              "cell": "c27314c7-50cd-4a0e-bfb2-f8be25afc40c"
             },
             "target": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "vertices": [
               {
-                "x": 145,
-                "y": 446
+                "x": 170,
+                "y": 497
               }
             ]
           },
@@ -4455,24 +4455,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
-                "8aa1edb7-6419-4060-b887-eac4b8b5ca9b"
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
+                "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119"
               ]
             },
             "labels": [
               "Válido / ya usado (HTTPS, JSON)"
             ],
-            "id": "6c2f57a1-a8ed-42a6-ae1e-df9a51297f33",
+            "id": "19333dde-471d-4f53-8c5a-0b1c792de1d5",
             "source": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "target": {
-              "cell": "2b1b9ed0-f8d8-4c60-b824-70efa27f91c0"
+              "cell": "c27314c7-50cd-4a0e-bfb2-f8be25afc40c"
             },
             "vertices": [
               {
-                "x": 145,
-                "y": 494
+                "x": 170,
+                "y": 553
               }
             ]
           },
@@ -4505,24 +4505,24 @@
               "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": [
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
-                "122fdd73-b0db-422d-9cda-f98175a7391b"
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
+                "c56edb5a-3235-467e-aae5-8b32202e19d2"
               ]
             },
             "labels": [
               "Consultas SQL (TLS, SQL)"
             ],
-            "id": "8f065e66-4514-48c0-a832-b25b02a69c99",
+            "id": "8f8f091a-4f49-4ac4-803a-a1df2ca3dfee",
             "source": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "target": {
-              "cell": "de2966f9-afdd-453e-8e08-7ba3ee3e789c"
+              "cell": "76cd3d6a-bba1-4d39-9278-0c4dcdcc6d13"
             },
             "vertices": [
               {
-                "x": 755,
-                "y": 396
+                "x": 720,
+                "y": 457
               }
             ]
           },
@@ -4555,24 +4555,24 @@
               "protocol": "TLS",
               "threats": [],
               "trustBoundaryIds": [
-                "122fdd73-b0db-422d-9cda-f98175a7391b",
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86"
+                "c56edb5a-3235-467e-aae5-8b32202e19d2",
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
               ]
             },
             "labels": [
               "Resultados SQL (TLS, SQL)"
             ],
-            "id": "9e091f44-ad48-4a47-b284-2f3c2f1d38dd",
+            "id": "e0c1413e-1bbd-46da-a5b8-ca68a6f4175a",
             "source": {
-              "cell": "de2966f9-afdd-453e-8e08-7ba3ee3e789c"
+              "cell": "76cd3d6a-bba1-4d39-9278-0c4dcdcc6d13"
             },
             "target": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "vertices": [
               {
-                "x": 755,
-                "y": 444
+                "x": 720,
+                "y": 513
               }
             ]
           },
@@ -4593,7 +4593,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Afiches y CSV de inscritos (HTTPS, API de objetos)",
+              "name": "Afiches y CSV (HTTPS, API S3)",
               "description": "Flujo obligatorio en STRIDE (tarea).",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4605,24 +4605,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
-                "122fdd73-b0db-422d-9cda-f98175a7391b"
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
+                "c56edb5a-3235-467e-aae5-8b32202e19d2"
               ]
             },
             "labels": [
-              "Afiches y CSV de inscritos (HTTPS, API de objetos)"
+              "Afiches y CSV (HTTPS, API S3)"
             ],
-            "id": "2c5b7222-c50c-48ea-aef0-26bff145aa28",
+            "id": "3ec0a467-b6cf-4811-8e7e-798a9f61fb7a",
             "source": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "target": {
-              "cell": "6c325c0d-10d9-4dd5-86bc-96d6dc251e76"
+              "cell": "ae86c0c1-f190-4e9b-8621-0d4862175023"
             },
             "vertices": [
               {
-                "x": 755,
-                "y": 481
+                "x": 720,
+                "y": 542
               }
             ]
           },
@@ -4643,7 +4643,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Objetos leídos (HTTPS, API de objetos)",
+              "name": "Objetos leídos (HTTPS, API S3)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4655,24 +4655,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "122fdd73-b0db-422d-9cda-f98175a7391b",
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86"
+                "c56edb5a-3235-467e-aae5-8b32202e19d2",
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
               ]
             },
             "labels": [
-              "Objetos leídos (HTTPS, API de objetos)"
+              "Objetos leídos (HTTPS, API S3)"
             ],
-            "id": "b95a4e96-e38a-4737-a1bb-289e9243e8df",
+            "id": "b609073e-dbdf-4cec-a64a-7e60c12f1b80",
             "source": {
-              "cell": "6c325c0d-10d9-4dd5-86bc-96d6dc251e76"
+              "cell": "ae86c0c1-f190-4e9b-8621-0d4862175023"
             },
             "target": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "vertices": [
               {
-                "x": 755,
-                "y": 529
+                "x": 720,
+                "y": 598
               }
             ]
           },
@@ -4696,7 +4696,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Login institucional (HTTPS, OAuth 2.0 / OIDC redirect)",
+              "name": "Login institucional (HTTPS, OIDC)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4708,24 +4708,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "8aa1edb7-6419-4060-b887-eac4b8b5ca9b",
-                "4a06c995-ef2a-4d53-b6f0-c427fd6e252b"
+                "1ae5a068-dbc1-4bf5-87d4-91fc9acb4119",
+                "84a2e971-41d4-4691-89b6-a6c33d3be6eb"
               ]
             },
             "labels": [
-              "Login institucional (HTTPS, OAuth 2.0 / OIDC redirect)"
+              "Login institucional (HTTPS, OIDC)"
             ],
-            "id": "fb880fb0-06ca-4a40-b435-2fd8a89069b1",
+            "id": "3402256f-d08e-4c68-9d27-530973d6e401",
             "source": {
-              "cell": "6fbb4e02-0e65-44fa-89e4-c37908774c0f"
+              "cell": "ca704dfa-d440-4401-9d71-64869cafec4d"
             },
             "target": {
-              "cell": "8d9dac55-27c5-4f11-a500-d4387adc4bd9"
+              "cell": "cc2bbc19-f4bd-4a45-9b17-1a8f8d2fcce3"
             },
             "vertices": [
               {
-                "x": 750,
-                "y": 170
+                "x": 710,
+                "y": 140
               }
             ]
           },
@@ -4749,7 +4749,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Canje de código y validación de tokens (HTTPS, OAuth 2.0)",
+              "name": "Canje de tokens (HTTPS, OAuth 2.0)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4761,24 +4761,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
-                "4a06c995-ef2a-4d53-b6f0-c427fd6e252b"
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
+                "84a2e971-41d4-4691-89b6-a6c33d3be6eb"
               ]
             },
             "labels": [
-              "Canje de código y validación de tokens (HTTPS, OAuth 2.0)"
+              "Canje de tokens (HTTPS, OAuth 2.0)"
             ],
-            "id": "a388a6e7-8e33-4fd8-a86a-2d215a7b81d7",
+            "id": "2fc1977a-18c5-4702-9fb4-43debf13558c",
             "source": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "target": {
-              "cell": "8d9dac55-27c5-4f11-a500-d4387adc4bd9"
+              "cell": "cc2bbc19-f4bd-4a45-9b17-1a8f8d2fcce3"
             },
             "vertices": [
               {
-                "x": 1055,
-                "y": 260
+                "x": 980,
+                "y": 255
               }
             ]
           },
@@ -4811,24 +4811,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
-                "4a06c995-ef2a-4d53-b6f0-c427fd6e252b"
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
+                "84a2e971-41d4-4691-89b6-a6c33d3be6eb"
               ]
             },
             "labels": [
               "Orden de pago (HTTPS, JSON)"
             ],
-            "id": "4cf08711-47ce-49dd-a867-7146c94f730c",
+            "id": "aba5d2b5-9f23-42dd-abda-60388cf5ee35",
             "source": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "target": {
-              "cell": "b045c8a5-25f1-4b91-826d-4ed805c18785"
+              "cell": "ad6895fa-de8d-4183-a58b-dcb1d7f80807"
             },
             "vertices": [
               {
-                "x": 1055,
-                "y": 356
+                "x": 980,
+                "y": 367
               }
             ]
           },
@@ -4861,24 +4861,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "4a06c995-ef2a-4d53-b6f0-c427fd6e252b",
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86"
+                "84a2e971-41d4-4691-89b6-a6c33d3be6eb",
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c"
               ]
             },
             "labels": [
               "Webhook de pago (HTTPS, JSON)"
             ],
-            "id": "10ae750f-9deb-42b4-b791-9af7963c420b",
+            "id": "a24ce7f3-2345-4d23-bdb3-80d565908ea0",
             "source": {
-              "cell": "b045c8a5-25f1-4b91-826d-4ed805c18785"
+              "cell": "ad6895fa-de8d-4183-a58b-dcb1d7f80807"
             },
             "target": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "vertices": [
               {
-                "x": 1055,
-                "y": 404
+                "x": 980,
+                "y": 423
               }
             ]
           },
@@ -4911,24 +4911,24 @@
               "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
-                "1052f623-09f2-4d11-8a3a-e6e5ac96ef86",
-                "4a06c995-ef2a-4d53-b6f0-c427fd6e252b"
+                "e3fb5d2d-dbb1-4e79-897b-9f3d3856df1c",
+                "84a2e971-41d4-4691-89b6-a6c33d3be6eb"
               ]
             },
             "labels": [
               "Entrada QR y restablecimiento (HTTPS, JSON)"
             ],
-            "id": "3ab5bcf9-af1f-4864-9b62-077efa99a14d",
+            "id": "5c23eb33-735a-47bf-97d5-1b701b2fa7aa",
             "source": {
-              "cell": "d6cff7b4-0e50-450e-99ec-2ec4bcae50c0"
+              "cell": "a074dcf8-a636-462d-87bd-99da32065e2c"
             },
             "target": {
-              "cell": "4d44aa69-c378-4eaf-b8a7-b868ddce789a"
+              "cell": "4101d1be-e653-41cc-abf6-8aa1e04da44e"
             },
             "vertices": [
               {
-                "x": 1055,
-                "y": 312
+                "x": 980,
+                "y": 330
               }
             ]
           }
