@@ -222,40 +222,51 @@
             }
           },
           {
-            "shape": "edge",
+            "shape": "flow",
             "attrs": {
               "line": {
+                "stroke": "#333333",
                 "targetMarker": {
-                  "name": "block",
-                  "width": 12,
-                  "height": 8
-                }
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
               }
             },
-            "id": "5d2a7fb0-c819-4da2-b59d-b1275839c877",
-            "zIndex": 0,
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Envío de entrada QR y restablecimiento de contraseña (HTTPS, JSON)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "HTTPS",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "b1a7581b-fc87-4deb-8a33-a0ffc26ad9af"
+              ]
             },
+            "labels": [
+              "Envío de entrada QR y restablecimiento de contraseña (HTTPS, JSON)"
+            ],
+            "id": "d18f85de-774c-4021-a2f5-d50ef9e9e5c5",
             "source": {
               "cell": "3317f60f-5a0c-48bf-b108-f3bf51fe2dc4",
               "port": "69d94d8a-00af-4c9f-a979-302c16fdad06"
             },
             "target": {
-              "x": 700,
-              "y": 300
+              "cell": "76933fce-6b08-479b-b097-b9a1ad94109b",
+              "port": "422bb08f-dc4a-4a34-a959-e4ca8ae99ddd"
             }
           },
           {
@@ -269,7 +280,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Estudinte/Publico"
+                "text": "Estudiante/Público"
               },
               "body": {
                 "stroke": "#333333",
@@ -365,7 +376,7 @@
             "id": "2d0297be-4516-4cae-af11-5a42c3923bab",
             "data": {
               "type": "tm.Actor",
-              "name": "Estudinte/Publico",
+              "name": "Estudiante/Público",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1217,23 +1228,23 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Pago y webhook de confirmación (HTTPS, JSON)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
                 "b1a7581b-fc87-4deb-8a33-a0ffc26ad9af"
               ]
             },
             "labels": [
-              ""
+              "Pago y webhook de confirmación (HTTPS, JSON)"
             ],
             "id": "4e474247-49e6-446c-9a97-004d61716ccc",
             "source": {
@@ -1243,13 +1254,7 @@
             "target": {
               "cell": "76933fce-6b08-479b-b097-b9a1ad94109b",
               "port": "422bb08f-dc4a-4a34-a959-e4ca8ae99ddd"
-            },
-            "vertices": [
-              {
-                "x": 1010,
-                "y": 280
-              }
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1271,23 +1276,23 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Autenticación institucional (HTTPS, OAuth 2.0 / OIDC)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
                 "b1a7581b-fc87-4deb-8a33-a0ffc26ad9af"
               ]
             },
             "labels": [
-              ""
+              "Autenticación institucional (HTTPS, OAuth 2.0 / OIDC)"
             ],
             "id": "9d1e5bdf-5824-4db3-a596-c7922832b64e",
             "source": {
@@ -1295,15 +1300,9 @@
               "port": "69d94d8a-00af-4c9f-a979-302c16fdad06"
             },
             "target": {
-              "x": 700,
-              "y": 180
-            },
-            "vertices": [
-              {
-                "x": 800,
-                "y": 140
-              }
-            ]
+              "cell": "76933fce-6b08-479b-b097-b9a1ad94109b",
+              "port": "f957624c-0767-4e38-aa81-2ad2b0067f5f"
+            }
           },
           {
             "shape": "flow",
@@ -1325,23 +1324,23 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Registro, login, inscripción y descarga de QR (HTTPS, JSON)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
+              "isBidirectional": true,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
                 "5580425b-c391-47d4-8ca2-d2a4ccf8eddd"
               ]
             },
             "labels": [
-              ""
+              "Registro, login, inscripción y descarga de QR (HTTPS, JSON)"
             ],
             "id": "55c8cf23-b6fe-4d01-a08d-f4bfcc3b82c6",
             "source": {
@@ -1351,8 +1350,7 @@
             "target": {
               "cell": "76933fce-6b08-479b-b097-b9a1ad94109b",
               "port": "74493c2e-189f-43f6-a5cf-33e433a140ba"
-            },
-            "vertices": []
+            }
           },
           {
             "shape": "flow",
@@ -1374,23 +1372,23 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Gestión de usuarios, roles y reportes (HTTPS, JSON)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
                 "5580425b-c391-47d4-8ca2-d2a4ccf8eddd"
               ]
             },
             "labels": [
-              ""
+              "Gestión de usuarios, roles y reportes (HTTPS, JSON)"
             ],
             "id": "d48c405f-9633-4bb1-8476-30fea8507ad4",
             "source": {
@@ -1400,13 +1398,7 @@
             "target": {
               "cell": "76933fce-6b08-479b-b097-b9a1ad94109b",
               "port": "518b5a05-2137-4563-83a5-28336e466e3e"
-            },
-            "vertices": [
-              {
-                "x": 250,
-                "y": 530
-              }
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1428,23 +1420,23 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Gestión de eventos, afiches y exportación CSV (HTTPS, JSON/multipart)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
                 "5580425b-c391-47d4-8ca2-d2a4ccf8eddd"
               ]
             },
             "labels": [
-              ""
+              "Gestión de eventos, afiches y exportación CSV (HTTPS, JSON/multipart)"
             ],
             "id": "7bbaa7b5-6ea8-4e4c-bec7-66f8f2df9662",
             "source": {
@@ -1452,10 +1444,9 @@
               "port": "17b77975-91fe-4f9e-8bcd-ed8ec62a92af"
             },
             "target": {
-              "x": 550,
-              "y": 290
-            },
-            "vertices": []
+              "cell": "76933fce-6b08-479b-b097-b9a1ad94109b",
+              "port": "74493c2e-189f-43f6-a5cf-33e433a140ba"
+            }
           },
           {
             "shape": "flow",
@@ -1477,23 +1468,23 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Validación de QR de entrada (HTTPS, JSON)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
                 "5580425b-c391-47d4-8ca2-d2a4ccf8eddd"
               ]
             },
             "labels": [
-              ""
+              "Validación de QR de entrada (HTTPS, JSON)"
             ],
             "id": "55a0fb9f-7f43-4419-8840-4b288f61d827",
             "source": {
@@ -1501,15 +1492,9 @@
               "port": "17b77975-91fe-4f9e-8bcd-ed8ec62a92af"
             },
             "target": {
-              "x": 570,
-              "y": 320
-            },
-            "vertices": [
-              {
-                "x": 230,
-                "y": 430
-              }
-            ]
+              "cell": "76933fce-6b08-479b-b097-b9a1ad94109b",
+              "port": "518b5a05-2137-4563-83a5-28336e466e3e"
+            }
           },
           {
             "shape": "flow",
@@ -1531,23 +1516,23 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Consulta de catálogo de eventos (HTTPS, JSON)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "HTTPS",
               "threats": [],
               "trustBoundaryIds": [
                 "5580425b-c391-47d4-8ca2-d2a4ccf8eddd"
               ]
             },
             "labels": [
-              ""
+              "Consulta de catálogo de eventos (HTTPS, JSON)"
             ],
             "id": "e26add3c-0ed6-4e01-8fd8-2e5d33def381",
             "source": {
@@ -1555,10 +1540,9 @@
               "port": "17b77975-91fe-4f9e-8bcd-ed8ec62a92af"
             },
             "target": {
-              "x": 560,
-              "y": 180
-            },
-            "vertices": []
+              "cell": "76933fce-6b08-479b-b097-b9a1ad94109b",
+              "port": "74493c2e-189f-43f6-a5cf-33e433a140ba"
+            }
           }
         ],
         "description": "Tarea: Modelado de amenazas de un sitio web"
