@@ -14,7 +14,7 @@
 - [Respuesta y trazabilidad](Respuesta%20y%20trazabilidad.md)
 - [Alcance, activos y supuestos](alcance,%20activos%20y%20supuestos.md)
 - [Árbol de ataque](docs/arbol-de-ataque.md)
-- [Modelo Threat Dragon](ThreatDragonModels/Threat%20Model/Threat%20Model.json)
+- [Modelo Threat Dragon](model/eventosu.json)
 
 ## Descripción
 
@@ -29,11 +29,33 @@ Este repositorio contiene el trabajo de modelado de amenazas para EventosU, basa
 
 ## Fuente del análisis
 
-- [ThreatDragonModels/Threat Model/Threat Model.json](ThreatDragonModels/Threat%20Model/Threat%20Model.json)
+- [model/eventosu.json](model/eventosu.json)
 
 ## Cómo abrir el modelo
 
 1. Abre OWASP Threat Dragon.
 2. Selecciona la opción para abrir o importar un modelo existente.
-3. Elige el archivo `ThreatDragonModels/Threat Model/Threat Model.json` de este repositorio.
+3. Elige el archivo `model/eventosu.json` de este repositorio.
 4. Abre los diagramas **DFD nivel 0 (contexto)** y **DFD nivel 1 (componentes)** desde el selector de diagramas.
+## Alcance del modelo
+
+Se analizan los clientes web y de puerta, API, base de datos, bucket y las integraciones con identidad, pagos y correo de EventosU. Se excluyen las implementaciones internas de los proveedores externos y pruebas sobre sistemas reales. Los controles se proponen para una aplicación aún en diseño.
+
+## Entrega e informe
+
+- [Informe PDF](docs/informe.pdf): versión para revisión con capturas de ambos DFD incorporadas.
+- [Informe HTML](docs/informe.html): fuente de presentación generada.
+- [Amenazas CSV](docs/amenazas.csv): 24 amenazas, con respuesta y mitigación.
+- [Validación de entrega](docs/validacion-entrega.md): resultados y pendientes.
+
+Para regenerar desde los documentos Markdown y el modelo original:
+
+```sh
+python3 docs/generar-informe.py
+sh docs/render-pdf.sh
+python3 docs/validar-entrega.py
+```
+
+El generador conserva `ThreatDragonModels/Threat Model/Threat Model.json` como fuente del modelo y copia su contenido a la ruta de entrega `model/eventosu.json`. Editar el modelo original y regenerar evita divergencias.
+
+Guardar las capturas de Threat Dragon como `docs/figuras/dfd-nivel-0.png` y `docs/figuras/dfd-nivel-1.png` antes de regenerar. El renderizador requiere Google Chrome en macOS. El historial ya contiene aportes de ambos integrantes; compartir el repositorio y entregar el enlace en la plataforma son pasos externos pendientes de comprobar.
