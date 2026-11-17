@@ -4,6 +4,7 @@
 
 - [Tabla de amenazas STRIDE](tabla%20de%20amenazas%20stride.md)
 - [Priorización: matriz de impacto × probabilidad](priorizacion%20matriz%20impacto%20probabilidad.md)
+- [Respuesta y trazabilidad](Respuesta%20y%20trazabilidad.md)
 - [Alcance, activos y supuestos](alcance,%20activos%20y%20supuestos.md)
 - [Árbol de ataque](docs/arbol-de-ataque.md)
 - [Modelo Threat Dragon](ThreatDragonModels/Threat%20Model/Threat%20Model.json)
