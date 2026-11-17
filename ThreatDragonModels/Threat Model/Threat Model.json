@@ -4346,13 +4346,13 @@
                   "id": "9d58c784-56ee-491a-917e-133f8c0be252",
                   "title": "T07 · Precio o estado alterado en la inscripción",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Tampering",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 7,
                   "description": "Un estudiante que modifica el cuerpo de la solicitud de inscripción (precio, estado o descuento) con las herramientas del navegador. Si la API confía en los valores del cliente, obtiene la entrada a precio cero.",
-                  "mitigation": ""
+                  "mitigation": "Calcular precio, descuentos y estado exclusivamente en la API; ignorar valores de pago enviados por el cliente y validar los datos contra el evento. Controles pendientes de diseño e implementación."
                 },
                 {
                   "id": "8bac2c0c-0aad-4b03-93dd-d79e114ae174",

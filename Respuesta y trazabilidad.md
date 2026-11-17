@@ -2,7 +2,7 @@
 
 ## Alcance y criterios
 
-Las respuestas se basan en las 24 amenazas de la [tabla STRIDE](tabla%20de%20amenazas%20stride.md). Las cinco amenazas trazadas son las que la [matriz de priorización](priorizacion%20matriz%20impacto%20probabilidad.md) identifica como prioritarias: T01, T03, T13, T21 y T23.
+Las respuestas se basan en las 24 amenazas de la [tabla STRIDE](tabla%20de%20amenazas%20stride.md). Las cinco amenazas trazadas son las que la [matriz de priorización](priorizacion%20matriz%20impacto%20probabilidad.md) identifica como prioritarias: T01, T07, T03, T13 y T21.
 
 Para la trazabilidad se usa OWASP ASVS 4.0.3. Se indican los identificadores concretos y su aplicación al escenario; las pruebas propuestas verifican los controles diseñados para EventosU.
 
@@ -42,10 +42,10 @@ Las tareas y los controles siguientes son propuestas para el futuro desarrollo. 
 | ID | Requisito OWASP ASVS 4.0.3 (área y objetivo aplicable) | Historia de usuario o tarea | Control de verificación propuesto |
 | --- | --- | --- | --- |
 | T01 | **V13.2.2**: validar el esquema JSON antes de aceptar la entrada. Este requisito no especifica la firma del webhook; verificar la firma del proveedor e idempotencia son controles adicionales necesarios para este escenario. | Como API, quiero autenticar y validar cada notificación de pago, evitando aceptar eventos alterados o repetidos. | **Prueba manual e integración:** enviar webhook sin firma, con firma inválida, timestamp vencido, monto alterado y evento repetido; todos deben rechazarse o procesarse una sola vez. |
+| T07 | **V1.5.3**: aplicar validación de entradas en una capa de servicio confiable; **V5.1.3**: validar todas las entradas mediante reglas positivas. | Como asistente, quiero que la API calcule el precio y el estado de pago con datos autoritativos del servidor para que modificar la solicitud desde el navegador no genere una inscripción gratuita. | **Prueba manual/DAST:** alterar precio, descuento y estado en la solicitud; la API debe ignorar o rechazar los valores y no emitir un QR pagado hasta confirmar el pago. |
 | T03 | **V11.1.1**: procesar el flujo de negocio del mismo usuario en orden secuencial y sin saltar pasos; **V4.1.3**: limitar las funciones y recursos a usuarios con autorización específica. | Como personal de puerta, quiero que la API valide que el QR corresponde a una inscripción pagada y no utilizada antes de permitir el ingreso. | **Prueba manual:** probar QR inventado, alterado, de inscripción no pagada y ya utilizado. **Prueba de concurrencia:** enviar dos validaciones simultáneas del mismo QR y comprobar que solo una se acepte. |
 | T13 | **V4.1.3**: limitar el acceso a archivos y recursos según autorización; **V8.3.5**: auditar el acceso a datos sensibles cuando corresponda; **V8.3.7**: cifrar la información privada que requiera cifrado. | Como organizador, quiero descargar el CSV únicamente para los eventos que tengo autorizados, sin que el archivo quede accesible públicamente. | **DAST y prueba manual:** solicitar el archivo sin sesión, con un usuario no autorizado y con un enlace vencido; el acceso debe denegarse. **IaC:** comprobar que la configuración del bucket no permite acceso público. |
 | T21 | **V4.1.1**: aplicar el control de acceso en una capa de servicio confiable, aunque también exista control en el cliente; **V4.1.3**: aplicar privilegio mínimo. | Como administrador, quiero que cada endpoint administrativo confirme el rol autorizado, incluso si se invoca directamente sin usar la interfaz. | **DAST:** invocar endpoints administrativos con sesión de estudiante, sin sesión y con rol inválido; todos deben denegarse y no modificar datos. |
-| T23 | **V3.5.3**: proteger los tokens de sesión sin estado mediante firmas digitales y contramedidas contra alteración, repetición y sustitución de claves. | Como API, quiero aceptar únicamente JWT firmados con algoritmos y claves configurados, y validar emisor, audiencia y expiración antes de autorizar solicitudes. | **Prueba manual e integración:** probar JWT con `alg=none`, firma incorrecta, clave no autorizada, emisor/audiencia incorrectos y token vencido; ninguno debe obtener rol ni acceso privilegiado. |
 
 ## Amenaza aceptada: T20
 
@@ -56,5 +56,5 @@ En la tabla STRIDE, T20 queda con respuesta “Aceptar riesgo residual” y cons
 ## Observaciones de consistencia
 
 - T01 se clasifica como **Impacto Alto / Probabilidad Alta / Riesgo Crítico** en la priorización y en la tabla STRIDE, dado que el escenario describe un endpoint expuesto cuya validación de firma puede ser débil o inexistente.
-- Las amenazas T01, T03, T13, T21 y T23 se tratan como prioritarias según la matriz existente. Las mitigaciones no significan que el riesgo ya esté reducido; la valoración residual se deberá realizar cuando los controles se diseñen y verifiquen.
+- Las amenazas T01, T07, T03, T13 y T21 se trazan según la matriz actual. T23 permanece con riesgo Alto, pero queda fuera de las cinco seleccionadas por el desempate indicado en la matriz. Las mitigaciones no significan que el riesgo ya esté reducido; la valoración residual se deberá realizar cuando los controles se diseñen y verifiquen.
 - La asignación del Administrador como responsable de T20 es una decisión explícita de este modelo; no afirma que el caso le otorgue autoridad institucional formal para aceptar riesgos.
