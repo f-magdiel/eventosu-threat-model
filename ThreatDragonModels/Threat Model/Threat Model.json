@@ -4847,13 +4847,13 @@
                   "id": "ff99b0e3-aa31-46a6-8d77-212b3cf27b6c",
                   "title": "T20 · Subida masiva de archivos al bucket",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Denial of service",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 20,
                   "description": "Un organizador o cuenta robada sube archivos enormes o repetidos sin límite. El bucket se llena, aumentan los costos y se afecta la disponibilidad de los afiches y los CSV.",
-                  "mitigation": ""
+                  "mitigation": "Definir límites de tamaño y cuotas de almacenamiento por organizador, validar tipos de archivo y alertar sobre consumo. En este ejercicio se acepta el riesgo residual de interrupción de archivos o costos dentro de esos límites; el Administrador es el responsable asignado de revisar el riesgo si se superan o se afecta la disponibilidad. Controles pendientes de diseño e implementación."
                 }
               ],
               "trustBoundaryIds": [
@@ -5129,13 +5129,13 @@
                   "id": "0f455fa8-5244-4127-9492-89a407dd4f90",
                   "title": "T01 · Webhook de pago falsificado",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Spoofing",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 1,
                   "description": "Un atacante externo que conoce la URL del webhook envía un POST con el ID de una inscripción y estado \"pagado\". Si la API no verifica la firma de la pasarela, la inscripción queda pagada y el atacante obtiene una entrada QR sin pagar.",
-                  "mitigation": ""
+                  "mitigation": "Verificar criptográficamente la firma de la pasarela, validar timestamp, evento y monto, aplicar idempotencia y confirmar el pago con el proveedor antes de marcar la inscripción como pagada. Controles pendientes de diseño e implementación."
                 },
                 {
                   "id": "bad8a9dc-4248-44ee-8226-00152499cb26",
